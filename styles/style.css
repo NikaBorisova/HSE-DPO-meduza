@@ -1,0 +1,43 @@
+@import "reset.css";
+
+nav {
+
+  display:flex;
+
+  height: 45px;
+
+  color: #fff;
+
+  background-color: rgb(38, 38, 38);
+
+  font-family: Arial;
+
+  font-size: 13px;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+
+.logo {
+
+  height: 21px;
+
+  margin-top: -4px;
+
+}
+
+nav ul {
+  
+  display: flex;
+
+  align-items: center;
+
+}
+ nav ul li {
+
+  padding-right: 5px;
+
+   etter-spacing: 1px;
+ }
