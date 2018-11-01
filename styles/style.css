@@ -1,43 +1,85 @@
 @import "reset.css";
 
-nav {
 
+.body {
+  -webkitt-font-smoothing:
+}
+.nav {
   display:flex;
-
   height: 45px;
-
   color: #fff;
-
   background-color: rgb(38, 38, 38);
-
   font-family: Arial;
-
   font-size: 13px;
-
   justify-content: space-between;
-
   align-items: center;
 
 }
 
 .logo {
-
   height: 21px;
-
   margin-top: -4px;
-
 }
 
-nav ul {
-  
+.nav .ul {
   display: flex;
-
   align-items: center;
 
 }
- nav ul li {
-
+.nav .ul .li {
   padding-right: 5px;
-
-   etter-spacing: 1px;
+  letter-spacing: 1px;
  }
+.info-panel {
+  display: flex;
+  height: 45px;
+  color: #000;
+
+  border-bottom: 1px solid #999;
+  background-color: #fff;
+  font-family: Arial;
+
+  font-size: 13px;
+  font-weight: bold;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+}
+.info-panel .a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #999;
+
+}
+
+.section {
+
+  width: 80px;
+  margin: 15px auto;
+
+  border: 1px solid #b88b58;
+  background-color: #fff;
+
+}
+
+.block h3 {
+  font-family: Georgia;
+  font-size: 13px;
+}
+
+
+.card .block:first-of-type h3 {
+  font-size: 34px;
+}
+
+.timestamp {
+font-family: Arial;
+font-size: 12px;
+}
+
+.block.is-important {
+  font-weight: bold;
+}
